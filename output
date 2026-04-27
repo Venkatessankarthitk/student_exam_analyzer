@@ -1,0 +1,120 @@
+myenv) PS D:\Documents\RAG\student> python .\main.py
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|████████████████████████████████████████████████████████████████████| 103/103 [00:00<00:00, 5968.52it/s]
+BertModel LOAD REPORT from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  |
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  |
+
+Notes:
+- UNEXPECTED:   can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+INFO:     Started server process [8960]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+===========================
+retrieval
+### Example 1: Evaluate \( x + 5 \) when \( x = 2 \)
+
+**Solution:**
+Given \( x = 2 \),
+\[ x + 5 = 2 + 5 = 7 \]
+
+### Example 2: Evaluate \( 2x + 5 \) when \( x = 3 \)
+
+**Solution:**
+Given \( x = 3 \),
+\[ 2x + 5 = 2 \times 3 + 5 \]
+\[ = 6 + 5 = 11 \]
+
+### Key Facts and Math Formulas
+
+1. **Addition and Subtraction:**
+   - \( a + b = b + a \) (Commutative Property of Addition)
+   - \( a + (b + c) = (a + b) + c \) (Associative Property of Addition)
+   - \( a + 0 = a \) (Additive Identity)
+   - \( a + (-a) = 0 \) (Additive Inverse)
+
+2. **Multiplication and Division:**
+   - \( a \times b = b \times a \) (Commutative Property of Multiplication)
+   - \( a \times (b + c) = a \times b + a \times c \) (Distributive Property)
+   - \( a \times 1 = a \) (Multiplicative Identity)
+   - \( a \times 0 = 0 \) (Multiplicative Inverse)
+   - \( a \div b = \frac{a}{b} \) (Division as Fraction)
+   - \( a \div 1 = a \) (Division by 1 is the number itself)
+
+3. **Order of Operations:**
+   - Perform operations inside parentheses first.
+   - Multiply and divide from left to right.
+   - Add and subtract from left to right.
+
+### English Grammar Rules
+
+1. **Subject-Verb Agreement:**
+   - The subject and verb must agree in number (singular or plural).
+   - For example, "The cat eats fish" (singular subject, singular verb) vs. "The cats eat fish" (plural subject, plural verb). 
+
+2. **Pronoun Reference:**
+   - A pronoun should refer to a noun that has been previously mentioned.
+   - For example, "The cat ate the fish" (the cat is the subject) vs. "The fish ate the cat" (the fish is the subject).        
+
+3. **Tense Consistency:**
+   - The tense of a sentence should be consistent throughout.
+   - For example, "The cat eats fish" (present tense) vs. "The cat ate the fish" (past tense).
+
+4. **Punctuation:**
+   - Use commas to separate items in a list.
+   - Use semicolons to separate independent clauses.
+   - Use colons to introduce a list or to set off a phrase.
+   - Use quotation marks to indicate direct speech.
+
+5. **Capitalization:**
+   - Capitalize the first letter of a sentence.
+   - Capitalize proper nouns (names of specific people, places, or things).
+   - Capitalize the pronoun "I" at the beginning of a sentence.
+
+By following these rules and formulas, you can ensure that your mathematical and grammatical expressions are clear and accurate.
+===========================
+math_expert_node
+Here's the comparison:
+
+**Student Answer:** 
+\[
+\begin{align*}
+4x + 7x + \frac{5}{4} & \quad x = 9 \\
+& = 4 \times 9 + 7 \times 9 + \frac{5}{4} \\
+& = 36 + 63 + \frac{5}{4} \\
+& = 99 + \frac{5}{4} \\
+& = 99 \times \frac{5}{4} \\
+& = \frac{495}{4} \\
+& = 123.75
+\end{align*}
+\]
+
+**Corrected Answer:**
+
+1. **Student wrote:** Evaluate \( 4x + 7x + \frac{5}{4} \), when \( x = 9 \).
+**Student did right:** Asked the correct question and evaluated the expression correctly.
+
+**Corrected Answer:**
+
+1. **Student wrote:** Evaluate \( 4x + 7x + \frac{5}{4} \), when \( x = 9 \).
+**Student did right:** Asked the correct question and evaluated the expression correctly.
+
+
+1. **Student wrote:** Evaluate \( 4x + 7x + \frac{5}{4} \), when \( x = 9 \).
+**Student did right:** Asked the correct question and evaluated the expression correctly.
+
+**Student did right:** Asked the correct question and evaluated the expression correctly.
+
+
+2. **Mistake:**
+The student didn't apply the order of operations (PEMDAS) correctly, simplifying the expression step by step. The correct steps would be:
+    - Combine like terms: \( 4x + 7x = 11x \)
+    - Simplify the fraction: \( \frac{5}{4} = 1.25 \)
+    - Evaluate the expression: \( 11x + 1.25 \), when \( x = 9 \)
+
+The final answer would be:
+\( 99 + 1.25 = 100.25 \)
+
+No copying errors were found in the student's work.
